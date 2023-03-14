@@ -18,6 +18,12 @@ class MockDatabaseService {
             location:  'Also Made For You',
             eventDate: '02/01/2021'
         });
+        await this.addEvent({
+            title: 'Atanu',
+            description: 'I am atanu paul',
+            location:  'Hyderabad',
+            eventDate: '14/03/2023'
+        });
     }
 
     /**
